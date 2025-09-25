@@ -20,11 +20,18 @@ After getting the result from the function, print the converted temperature in t
 Converted Temperature: {temp_value}
 The {temp_value} should be the calculated temperature, formatted as a floating-point number with one decimal place.
 
-Formulae:
-To convert Fahrenheit to Celsius:
-C=95​×(F−32)
-To convert Celsius to Fahrenheit:
-F=59​×C+32
+## Formulae
+
+- **Fahrenheit → Celsius:**  
+  \[
+  C = \frac{5}{9} \times (F - 32)
+  \]
+
+- **Celsius → Fahrenheit:**  
+  \[
+  F = \frac{9}{5} \times C + 32
+  \]
+
 Example Interaction:
 Are you converting from (C)elsius or (F)ahrenheit? F Enter the Fahrenheit temperature: 68 Converted Temperature: 20.0
 Deliverable:
